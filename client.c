@@ -16,6 +16,7 @@
 #include "client.h"
 #include "main.h"
 
+//
 client_t *g_clients = NULL;
 
 client_t *client_new() {
