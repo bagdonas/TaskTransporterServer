@@ -25,7 +25,7 @@ typedef struct options {
    char db_user_table[128];
    char db_userid_field[128];
    char db_session_field[128];
-   char db_connected_field[1280];
+   char db_connected_field[128];
 } options_t;
 
 extern options_t opt;
