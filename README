@@ -1,3 +1,10 @@
+
+Readme is being prepared!
+
+
+
+
+
 killall -9 ttserver
 ./ttserver \
 --server_port 4300 \                   #server listening port
