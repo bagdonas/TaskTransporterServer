@@ -38,6 +38,7 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
     <itemPath>.gitignore</itemPath>
+    <itemPath>COPYING</itemPath>
     <itemPath>README</itemPath>
     <itemPath>run.sh</itemPath>
   </logicalFolder>
@@ -61,6 +62,8 @@
         </linkerTool>
       </compileType>
       <item path=".gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="COPYING" ex="false" tool="3" flavor2="0">
       </item>
       <item path="README" ex="false" tool="3" flavor2="0">
       </item>
@@ -121,6 +124,8 @@
         </linkerTool>
       </compileType>
       <item path=".gitignore" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="COPYING" ex="false" tool="3" flavor2="0">
       </item>
       <item path="README" ex="false" tool="3" flavor2="0">
       </item>
