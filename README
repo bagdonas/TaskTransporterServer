@@ -1,0 +1,18 @@
+killall -9 ttserver
+./ttserver \
+--server_port 4300 \                   #server listening port
+--db_host "localhost" \                #mysql hostname
+--db_port 3306 \                       #mysql port
+--db_name "task_transporter" \         #mysql database name
+--db_user "task_transporter" \         #mysql username
+--db_password "" \                     #mysql password
+--db_task_table "task" \               #the most important table where tasks will be circulating 
+#evertything in task
+--db_user_table "user" \               #client or user or session table, it doesn't matter how are you calling it. It need three required fields: 
+--db_userid_field "id" \               #userid field. It could be just primary key "id" if you keep your sessions in user table, OR it could be "user_id" if you have separate table for your sessions   
+--db_session_field "session_hash" \    #session field. The field where session hash is stored
+--db_connected_field "is_connected" \  #connected field. The field is optional. If you use it
+#####################################
+--console \
+--debug \
+#--daemon
